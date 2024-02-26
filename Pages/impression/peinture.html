@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Peinture</title>
+
+        <!-- Favicon -->
+        <link href="../../asset/images/logo3.png" rel="icon">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
+
+        <script src="https://kit.fontawesome.com/2bac0f488f.js" crossorigin="anonymous"></script> 
+
+        <!-- Icon Font Stylesheet -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="../../asset/lib/animate/animate.min.css" rel="stylesheet">
+        <link href="../../asset/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="../../asset/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="../../asset/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="../../asset/css/style.css" rel="stylesheet">
+        
+    </head>
+    <body>
+        <header>
+            <!-- Spinner Start -->
+            <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+                <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+            </div>
+            <!-- Spinner End -->
+
+
+            <!-- Topbar Start -->
+            <div class="container-fluid bg-dark p-0">
+                <div class="row gx-0 d-none d-lg-flex">
+                    <div class="col-lg-7 px-5 text-start">
+                        <div class="h-100 d-inline-flex align-items-center me-4">
+                            <small class="fa fa-map-marker-alt text-primary me-2"></small>
+                            <small class="contac-info">12 rue du Caire, 8000 Nabeul, Tunisie</small>
+                        </div>
+                        <div class="h-100 d-inline-flex align-items-center">
+                            <small class="far fa-clock text-primary me-2"></small>
+                            <small class="contac-info">Lundi - Vendredi : 8h:30 - 17h:00</small>
+                        </div>
+                        
+                    </div>
+                    <div class="col-lg-5 px-5 text-end">
+                        <div class="h-100 d-inline-flex align-items-center me-4">
+                            <small class="fa fa-phone-alt text-primary me-2"></small>
+                            <small class="contac-info ">+216 27 452 571</small>
+                        </div>
+                       <div class="h-100 d-inline-flex align-items-center mx-n2">
+                            <a class="btn btn-square btn-link rounded-0 border-0 " href="https://www.facebook.com/bellamineindustries"><i class="fab fa-facebook-f" style="color:rgba(0, 128, 255)"></i></a>
+                            <a class="btn btn-square btn-link rounded-0 border-0 " href=""><i class="fab fa-linkedin-in" style="color:rgba(0, 128, 255)"></i></a>
+                            <a class="btn btn-square btn-link rounded-0 border-0 " href="https://www.youtube.com/channel/UCbeFXFYPOW2gwwFgK-fXXWw"><i class="fab fa-youtube" style="color:rgba(0, 128, 255)"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Topbar End -->
+
+
+            <!-- Navbar Start -->
+            <nav class="navbar navbar-expand-lg  navbar-light sticky-top p-1 navbar navbar-dark bg-dark ">
+                <a href="../../index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+                    <img id="logo" src="../../asset/images/logo3.png" alt="">
+                    <h2 class="m-0 text-primary">Bellamine-Industries</h2>
+                </a>
+                <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarCollapse">
+                    <div class="navbar-nav ms-auto p-4 p-lg-0 ">
+                        <a href="../../index.html" class="nav-item nav-link active rounded-0" style ="width:100px;"   ><i class="fa fa-home fa-lg" aria-hidden="true"></i> Accueil</a>
+                    
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle rounded-0 " data-bs-toggle="dropdown" style ="width: 150px;" >Nos services</a>
+                        <div class="dropdown-menu bg-light m-0" style="right: -380px;">
+                                <table>
+                                    <tr>
+                                        <th class="text-primary">&nbsp;&nbsp;&nbsp;Moules</th>
+                                        <th class="text-primary">&nbsp;&nbsp;&nbsp;Usinage de précision </th>
+                                        <th class="text-primary">&nbsp;&nbsp;&nbsp;Tolerie</th>
+                                        <th class="text-primary">&nbsp;&nbsp;&nbsp;Réalisation</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a class="dropdown-item " href="../moule/conception-moule.html">Conception et fabrication de moules</a>
+                                        </td>
+                                        <td>
+                                            <a class="dropdown-item " href="../usinage/fraisage.html">Fraisage CNC &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                                        </td>
+                                        <td>
+                                            <a class="dropdown-item " href="../tolerie/conception.html">Conception 2D et 3D</a>
+                                        </td>
+                                        <td>
+                                            <a class="dropdown-item " href="../realisation.html">Nos réalisations</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a class="dropdown-item " href="../moule/processus.html">Processus de fabrication de moules</a>
+                                        </td>
+                                        <td>
+                                            <a class="dropdown-item " href="../usinage/tournage.html">Tournage CNC</a>
+                                        </td>
+                                        <td>
+                                            <a class="dropdown-item " href="../tolerie/poinconnage.html">Poinçonnage</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td>
+                                            <a class="dropdown-item " href="../tolerie/decoupe-laser.html">Decoupe laser</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td>
+                                            <a class="dropdown-item " href="../tolerie/decoupe-plasma.html">Decoupe plasma et oxycoupage</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td>
+                                            <a class="dropdown-item " href="../tolerie/pliage.html">Pliage</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td>
+                                            <a class="dropdown-item " href="../tolerie/soudure.html">Soudure</a>
+                                        </td>
+                                    </tr>
+                                    <br>
+                                    <tr>
+                                        <th class="text-primary">&nbsp;&nbsp;&nbsp;Fabrication de machines</th>
+                                        <th class="text-primary">&nbsp;&nbsp;&nbsp;Impression </th>
+                                        <th class="text-primary">&nbsp;&nbsp;&nbsp;Robotique</th>
+                                        <th class="text-primary">&nbsp;&nbsp;&nbsp;Maintenance</th>
+                                    </tr>
+                                <tr>
+                                        <td>
+                                            <a class="dropdown-item " href="../fabricationMachines/machine-sur-mesure.html">Machine sur mesure</a>
+                                        </td>
+                                        <td>
+                                            <a class="dropdown-item " href="peinture.html">Peinture et impression</a>
+                                        </td>
+                                        <td>
+                                            <a class="dropdown-item " href="../robotique/integration.html" title="Integration des robots dans les chaines de production">Integration des robots</a>
+                                        </td>
+                                        <td>
+                                            <a class="dropdown-item " href="../maintenance/maintenance.html">Maintenance Industrielle</a>
+                                        </td>
+                                </tr>
+                                <tr>
+                                        <td>
+                                            <a class="dropdown-item " href="../fabricationMachines/presse.html">Fabrication de presse</a>
+                                        </td>
+                                        <td>
+                                            <a class="dropdown-item " href="sols.html">Sols Industiels Epoxy</a>
+                                        </td>
+                                        <td>
+                                            <a class="dropdown-item " href="../robotique/retrofit.html">Retrofit </a>
+                                        </td>
+                                </tr>
+                                <tr>
+                                        <th class="text-primary">&nbsp;&nbsp;&nbsp; Departement de formation et assistance</th>
+                                </tr>
+                                <tr>
+                                        <td>
+                                            <a class="dropdown-item " href="../formation/formation.html">Departement de formation et assistance &nbsp;&nbsp;&nbsp;</a>
+                                        </td>
+                                </tr>
+                                </table>
+                                
+                            </div>
+                        </div>
+                        <a href="../recrutement/recrutement.html" class="nav-item nav-link rounded-0 " style ="width: 120px;" >Recrutement</a>
+                    
+                        <a href="../blog.html" class="nav-item nav-link rounded-0" style ="width: 80px;" ><i class="fa fa-refresh" aria-hidden="true"  ></i> Blog</a>
+                        <a href="../contact.html" class="nav-item nav-link rounded-0 " style ="width: 100px;"><i class="fa fa-envelope " aria-hidden="true"  ></i> Contact</a>
+                        <a href="../contact.html" class="nav-item nav-link rounded-0" ><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"  ></i>
+                        </a>
+                    </div>
+                    
+                
+
+                </div>
+            </nav>
+            <!-- Navbar End -->
+        </header>
+
+        <section>
+             <div class="container-fluid page-header-peinture py-5 mb-5">
+            <div class="container py-5">
+                <h1 class="display-3 text-white mb-3 animated slideInDown">Peinture, Sérigraphie, Tompographie et marquage industriel</h1>
+                <nav aria-label="breadcrumb animated slideInDown">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a class="text-white" href="../../index.html">Accueil</a></li>
+                        <li class="breadcrumb-item text-white active" aria-current="page">peinture</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <!-- Page Header End -->
+    <br>
+        <div class="container">
+            <div style="background-color: #D076A8;">
+            <div class=" p-description">
+                        
+                <p style="text-align: center;padding:15px"><br>
+                    Nous disposons d’un atelier d’application de peintures industrielles liquides, 
+                    de sérigraphie et de tompographie et 
+                    de marquage industriel par gravure laser et marquage a chaux ainsi que le doming. 
+                    Nous sommes équipés de matériel standard et à basse pression qui nous permettent 
+                    d’appliquer suivant des process, normes, 
+                    cahier des charges des peintures polyuréthane, époxy en petites et moyennes séries. 
+                    Notre atelier de sérigraphie nous apporte une véritable autonomie dans ce domaine et nous 
+                    permet de réaliser des marquages sur tout support en relation avec notre métier de base. 
+                    Nous assurons des marquages sur pièces techniques et cosmétiques de tailles différentes, 
+                    puisque nous pouvons y marquer tous types d’éléments, notamment un dessin, un texte ou un logo. 
+                    Nous sommes fiers de nous spécialiser dans les services de tampographie et de sérigraphie et d’offrir 
+                    une vaste gamme d’autres services spécialisés dans les domaines de marquage industriel.
+                </p>
+            </div>
+            <div class="row g-4">
+                
+                <img class="col-lg-6 img-peinture" src="../../asset/images/peint3.png" alt="">
+                <img class="col-lg-6 img-peinture" src="../../asset/images/peint4.jpg" alt="">
+                <img class="col-lg-6 img-peinture" src="../../asset/images/peint5.png" alt="">
+                <img class="col-lg-6 img-peinture" src="../../asset/images/peint2.jpg" alt="">
+            </div>
+            <br><br>
+        </div>
+            <br><br><br>
+            <div class="row g-4" style="border: solid; color:#D076A8;">
+               <br> <h3 style="color: #D076A8; text-align: center;padding-top:0.5cm;"> <i class="fa fa-hand-o-down" aria-hidden="true"></i>
+                 <u>Peintures poudre industrielles </u>
+                </h3>
+                <div class="col-lg-6 p-description" style="text-align: center;padding-top:2cm;">
+                    
+                    <p>
+                        Selon le type de poudre utilisé, votre pièce pourra ainsi obtenir des propriétés
+                        de résistance aux UV, à la corrosion, 
+                        être adaptée au milieu marin ou uniquement à des environnements d’intérieur, etc.
+                        <p>
+                            - EPOXY<br>
+                            - POLYESTER<br>
+                            - MIXTE EPOXY-POLYESTER  <br>
+                        </p>
+             <hr>
+                    </p>
+                </div>
+                 <div class="col-lg-6 img-description">
+                    <img src="../../asset/images/peint6.jpg" alt="" style="height: 300px;">
+                </div>
+            </div>
+  <br><br>
+            <br>
+            <div class="row g-4" style="border: solid; color:#F2711B;">
+                <h3 style="color: #F2711B; text-align: center;padding-top:0.5cm;"> <i class="fa fa-hand-o-down" aria-hidden="true"></i><u> Sérigraphie</u></h3>
+                <div class="col-lg-6 p-description">
+                    
+                    <p style="text-align: center;padding-top:2cm;">
+                        La sérigraphie est le procédé de marquage le plus ancien et le plus répandu.
+                        Cette technique d'impression consiste à faire passer de l'encre à travers les 
+                        mailles très fines d'un écran à l'aide d'une racle pour être déposée sur 
+                        le support à imprimer.
+                        L’impression peut se faire en une ou plusieurs couleurs, sur tout type 
+                        d’objets et de supports.
+                    </p>
+                </div>
+                 <div class="col-lg-6 img-description">
+                    <img src="../../asset/images/peint7.jpg" alt="" style="height: 300px;">
+                </div>
+            </div>
+
+            <br><br><br>
+            <div class="row g-4" style="border: solid; color:#0487D9;">
+                <h3 style="color: #0487D9; text-align: center;padding-top:0.5cm;"><i class="fa fa-hand-o-down" aria-hidden="true"></i><u>  Tampographie</u></h3>
+                <div class="col-lg-6 p-description">
+                    
+                    <p style="text-align: center;padding-top:2cm;">
+                        La tampographie est un procédé d'impression basé sur le principe du timbre 
+                        en caoutchouc. Cette technique consiste à transférer l'encre contenue dans le 
+                        creux d'un cliché, sur un objet au moyen d'un tampon transfert en caoutchouc 
+                        silicone.
+                        Se servant de tampons extrêmement élastiques, des objets de forme concave, 
+                        convexe, régulière et irrégulière peuvent être imprimés.
+                        Le dépôt d'une très fine couche d’encre garantit un marquage précis et rapide.
+
+                    </p>
+                </div>
+                 <div class="col-lg-6 img-description">
+                    <img src="../../asset/images/peint8.jpg" alt="" style="height: 300px;">
+                </div>
+            </div>
+
+            <br><br><br>
+            <div class="row g-4" style="border: solid; color:#93A64E;">
+                <h3 style="color: #93A64E; text-align: center;padding-top:0.5cm;"><i class="fa fa-hand-o-down" aria-hidden="true"></i><u> Doming</u></h3>
+                <div class="col-lg-6 p-description">
+                    
+                    <p style="text-align: center;padding-top:2cm;">
+                        Cette technique permet de mettre en relief un logo ou un motif.
+                        Un dôme de résine polyuréthane transparent, de 1 à 2 mm d’épaisseur, 
+                        est coulé sur un support adhésif imprimé.
+                        Une fois passé à la chaleur, la résine durcie, l’effet loupe donne 
+                        au marquage un rendu très qualitatif.
+
+
+                    </p>
+                </div>
+                 <div class="col-lg-6 img-description">
+                    <img src="../../asset/images/peint9.jpg" alt="" style="height: 300px;">
+                </div>
+            </div>
+
+            <br><br><br>
+            <div class="row g-4" style="border: solid; color:#CE8056;">
+                <h3 style="color: #CE8056; text-align: center;padding-top:0.5cm;"><i class="fa fa-hand-o-down" aria-hidden="true"></i><u> Gravure Laser </u></h3>
+                <div class="col-lg-6 p-description">
+                    
+                    <p style="text-align: center;padding-top:2cm;">
+                        Cette technologie de marquage consiste à émettre un faisceau lumineux à haute 
+                        intensité sur le produit à marquer. L’impact du laser sur le produit va 
+                        creuser directement la matière.
+                        La gravure peut être plus ou moins profonde, selon le rendu recherché. 
+                        Elle peut être utilisée sur les métaux, le bois, le verre et les matières 
+                        plastiques.
+                        Le rendu monochrome est inaltérable dans le temps et permet une très 
+                        grande précision
+
+                    </p>
+                </div>
+                 <div class="col-lg-6 img-description">
+                    <img src="../../asset/images/peint10.jpg" alt="" style="height: 300px;">
+                </div>
+            </div><br><br>
+            <a href="../../Pages/contact.html" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Contactez nous</a>
+
+        </div>
+        </section>
+        <footer>
+             <!-- Footer Start -->
+            <div class="container-fluid bg-dark text-body footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+                <div class="container py-5">
+                    <div class="row g-5">
+
+                        <div class="col-lg-3 col-md-6">
+                            <h5 class="text-white mb-4">Découvrir notre site</h5>
+                            <a class="btn btn-link" href="../../index.html">Accueill</a>
+                            <a class="btn btn-link" href="../blog.html">Blog</a>
+                            <a class="btn btn-link" href="../recrutement/recrutement.html">Recrutement</a>
+                            <a class="btn btn-link" href="../contact.html">Contact</a>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <h5 class="text-white mb-4">Nos services</h5>
+                            <a class="btn btn-link" href="../moule/conception-moule.html">Moules</a>
+                            <a class="btn btn-link" href="../usinage/fraisage.html">Usinage de precision</a>
+                            <a class="btn btn-link" href="../tolerie/poinconnage.html">Tolerie</a>
+                            <a class="btn btn-link" href="peinture.html">Impression</a>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <a class="btn btn-link" href="../robotique/integration.html">Robotique</a>
+                            <a class="btn btn-link" href="../fabricationMachines/machine-sur-mesure.html">Fabrication de machine</a>
+                            <a class="btn btn-link" href="../maintenance/maintenance.html">Maintenance</a>
+                            <a class="btn btn-link" href="../formation/formation.html">Formation et assistance</a>
+                            <a class="btn btn-link" href="../realisation.html">Realisation</a>
+                        </div>
+
+
+                        <div class="col-lg-3 col-md-6">
+                            <h5 class="text-white mb-4">Adresse</h5>
+                            <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>12 Rue du Caire, 8000 Nabeul, Tunisie</p>
+                            <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+216 27 452 571</p>
+                            <p class="mb-2"><i class="fa fa-envelope me-3"></i>moez@bellamine-industries.com</p>
+                            <div class="d-flex pt-2">
+                                <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                                <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            <!-- Footer End -->
+
+            <!-- Back to Top -->
+            <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+        </footer>
+
+        <!-- JavaScript Libraries -->
+        <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>  -->
+        <script src="../../asset/js/jquery-3.4.1.min.js"></script>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>  -->
+        <script src="../../asset/lib/wow/wow.min.js"></script>
+        <script src="../../asset/lib/easing/easing.min.js"></script>
+        <script src="../../asset/lib/waypoints/waypoints.min.js"></script>
+        <script src="../../asset/lib/counterup/counterup.min.js"></script>
+        <script src="../../asset/lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="../../asset/lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="../../asset/lib/lightbox/js/lightbox.min.js"></script>
+        <script src="../../asset/js/bootstrap.bundle.min.js"></script>
+        <script src="../../asset/js/bootstrap.min.js"></script>
+        
+        <!-- boostrap-->
+        
+        <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  -->
+
+        <!-- Template Javascript -->
+        <script src="../../asset/js/main.js"></script>
+    </body>
+</html>
